@@ -12,7 +12,6 @@ framework, and can work with any class you create that implements java.io.Serial
 Spark can also use the Kryo library (version 2) to serialize objects more
 quickly. Kryo is significantly faster and more compact than Java serialization (often as much as
 10x)
-
 ```sh
 conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer"). 
 
